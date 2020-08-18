@@ -1,0 +1,17 @@
+.users {
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem 0;
+    padding: 2rem 0;
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+    }
+    @media screen and (min-width: 1024px) {
+      max-width: 1024px;
+      margin: 0 auto;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

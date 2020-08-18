@@ -1,0 +1,66 @@
+.user {
+  &__container {
+    animation: fadeIn 1s ease;
+  }
+  &__summary {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    box-shadow: $shadow;
+    background-color: $color-very-ligth;
+    min-height: 300px;
+  }
+  &__hero {
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: $color-primary;
+      z-index: 1;
+      opacity: .4;
+    }
+  }
+  &__image {
+    position: relative;
+    z-index: 2;
+    margin-top: -3.5rem;
+    text-align: center;
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid $color-primary;
+    }
+  }
+  &__description {
+    text-align: center;
+  }
+  &__name {
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+  &__job {
+    color: #777;
+    font-size: 14px;
+  }
+  &__socialNetwork {
+    margin: 1rem 0 0;
+    padding: 1rem;
+    background-color: $color-ligth;
+    font-size: 14px;
+    color: $color-primary;
+    font-style: italic;
+  }
+}
