@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+import { Link } from 'wouter'
 
+import { FiPlus } from 'react-icons/fi'
 import useReadUsers from '../../hooks/useReadUsers'
 import { CommonLoading } from 'react-loadingg'
 import Layout from '../../components/Layout'
@@ -18,6 +20,17 @@ export default function Users() {
             ? <CommonLoading color='#cb6ce6' />
             :
             <>
+              <div className='users__actions'>
+                <section className='users__actions--new'>
+                  <Link to='/users/new'><FiPlus /></Link>
+                </section>
+                <section className='users__actions--search'>
+                  <div className='search'>
+                    <h4>Filter Users</h4>
+                    <input type='text' />
+                  </div>
+                </section>
+              </div>
               <div className='users__content'>
                 {
                   users.map(user => 
@@ -27,6 +40,7 @@ export default function Users() {
               </div>
             </>
           }
+          {error && <h4>Oh! hubo un Error {error}</h4>}
         </div>
       </main>
     </Layout>

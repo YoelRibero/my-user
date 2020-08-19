@@ -8,9 +8,7 @@ export default function Header() {
       <div className='wrapper'>
         <div className="header__logo">
           <Link href='/'>
-            <a>
               <img src={logo} alt='Logo'/>
-            </a>
           </Link>
         </div>
       </div>

@@ -6,8 +6,10 @@
       "lastName": "Hoppe",
       "email": "Deshaun_Steuber@gmail.com",
       "jobTitle": "Senior Implementation Architect",
+      "jobRelated": "photography",
       "twitter": "KaelynHoppe15215",
-      "avatarUrl": "https://randomuser.me/api/portraits/men/44.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/men/44.jpg",
+      "preferColor": "#d8d286"
     },
     {
       "id": "eb28f57f-6448-4d40-8f57-8db27831a605",
@@ -15,8 +17,10 @@
       "lastName": "Torphy",
       "email": "Torrance.Gaylord@yahoo.com",
       "jobTitle": "Lead Directives Liaison",
+      "jobRelated": "programming",
       "twitter": "MyrtleTorphy42588-6517",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/35.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/35.jpg",
+      "preferColor": "#222222"
     },
     {
       "id": "052e04c9-6386-400c-8794-c1ac8f794a75",
@@ -24,8 +28,10 @@
       "lastName": "Ritchie",
       "email": "Daren95@yahoo.com",
       "jobTitle": "Legacy Operations Facilitator",
+      "jobRelated": "singer",
       "twitter": "PamelaRitchie48620",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/82.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/82.jpg",
+      "preferColor": "#aa2619"
     },
     {
       "id": "4bbb7f45-e0be-4b7f-ab7c-101b3ecb2d04",
@@ -33,8 +39,10 @@
       "lastName": "Huel",
       "email": "Chadd37@yahoo.com",
       "jobTitle": "Internal Group Analyst",
+      "jobRelated": "programming",
       "twitter": "MaynardHuel05078-8821",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/80.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/80.jpg",
+      "preferColor": "#676546"
     },
     {
       "id": "67565eb7-9738-4dab-8b10-081d3dcff01d",
@@ -42,8 +50,10 @@
       "lastName": "Bartell",
       "email": "Dean80@hotmail.com",
       "jobTitle": "National Mobility Administrator",
+      "jobRelated": "photography",
       "twitter": "DevinBartell94456-3248",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/38.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/38.jpg",
+      "preferColor": "#d9af8a"
     },
     {
       "id": "aa98596d-fea6-4686-90e1-93514b6dc011",
@@ -51,8 +61,10 @@
       "lastName": "Walker",
       "email": "Isom.Zboncak@yahoo.com",
       "jobTitle": "Central Paradigm Executive",
+      "jobRelated": "photography",
       "twitter": "AntwanWalker03371-3341",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/41.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/41.jpg",
+      "preferColor": "#c7b281"
     },
     {
       "id": "8758e3df-00a6-424c-8878-ff6106a6f029",
@@ -60,8 +72,10 @@
       "lastName": "McCullough",
       "email": "Darrel.Stark@gmail.com",
       "jobTitle": "Legacy Branding Architect",
+      "jobRelated": "construction",
       "twitter": "KaylaMcCullough84105",
-      "avatarUrl": "https://randomuser.me/api/portraits/men/53.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/men/53.jpg",
+      "preferColor": "#8d5574"
     },
     {
       "id": "62579a13-8ae5-4831-9138-871c00823f53",
@@ -69,8 +83,10 @@
       "lastName": "Hermiston",
       "email": "Pearl80@hotmail.com",
       "jobTitle": "Direct Usability Technician",
+      "jobRelated": "singer",
       "twitter": "KingHermiston36255",
-      "avatarUrl": "https://randomuser.me/api/portraits/men/49.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/men/49.jpg",
+      "preferColor": "#6b472b"
     },
     {
       "id": "7f2257d9-7b17-4561-a68c-b04f33d778d4",
@@ -78,8 +94,10 @@
       "lastName": "Watsica",
       "email": "Amy.Haag@hotmail.com",
       "jobTitle": "Internal Response Architect",
+      "jobRelated": "photography",
       "twitter": "OdessaWatsica41585-3744",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+      "preferColor": "#ca8794"
     },
     {
       "id": "6ffbc836-772b-430d-9576-74826557d073",
@@ -87,8 +105,10 @@
       "lastName": "Fay",
       "email": "Guillermo_Murazik@yahoo.com",
       "jobTitle": "Central Quality Strategist",
+      "jobRelated": "gastronomy",
       "twitter": "JamilFay04425",
-      "avatarUrl": "https://randomuser.me/api/portraits/men/81.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/men/81.jpg",
+      "preferColor": "#d58059"
     },
     {
       "id": "925952de-f43d-49c3-8e04-98f1c6b9e3e6",
@@ -96,8 +116,10 @@
       "lastName": "Kulas",
       "email": "Frieda89@yahoo.com",
       "jobTitle": "Senior Research Consultant",
+      "jobRelated": "construction",
       "twitter": "JasenKulas35396-9255",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/20.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/20.jpg",
+      "preferColor": "#eef6c5"
     },
     {
       "id": "7b8ac914-bb9d-4649-9ddd-fe1de2b82e79",
@@ -105,8 +127,10 @@
       "lastName": "Miller",
       "email": "Dock5@gmail.com",
       "jobTitle": "Lead Solutions Designer",
+      "jobRelated": "construction",
       "twitter": "PaulMiller12518-9290",
-      "avatarUrl": "https://randomuser.me/api/portraits/men/31.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/men/31.jpg",
+      "preferColor": "#b2b6c1"
     },
     {
       "id": "f73bc968-7ac8-4ea8-a450-b1b7b9047030",
@@ -114,8 +138,10 @@
       "lastName": "Schaefer",
       "email": "Reva.Rosenbaum@gmail.com",
       "jobTitle": "International Accountability Manager",
+      "jobRelated": "programming",
       "twitter": "OzellaSchaefer15358-7071",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/21.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/21.jpg",
+      "preferColor": "#5a9696"
     },
     {
       "id": "02c0eae9-96e3-4527-a2c2-f2274bb4f3cf",
@@ -123,8 +149,10 @@
       "lastName": "Heller",
       "email": "Jayce_Greenholt72@gmail.com",
       "jobTitle": "Product Directives Coordinator",
+      "jobRelated": "gastronomy",
       "twitter": "RebecaHeller98352",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/38.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/38.jpg",
+      "preferColor": "#8e5951"
     },
     {
       "id": "5f9b5d9f-4225-4706-b3b3-330762447071",
@@ -132,8 +160,10 @@
       "lastName": "Rowe",
       "email": "Ressie79@yahoo.com",
       "jobTitle": "Dynamic Creative Engineer",
+      "jobRelated": "photography",
       "twitter": "MaynardRowe74584",
-      "avatarUrl": "https://randomuser.me/api/portraits/women/52.jpg"
+      "avatarUrl": "https://randomuser.me/api/portraits/women/52.jpg",
+      "preferColor": "#d3be62"
     }
   ]
 }

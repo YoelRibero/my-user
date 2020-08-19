@@ -1,4 +1,27 @@
 .users {
+  &__actions {
+    padding: 2rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--new {
+      text-align: right;
+      order: 2;
+      svg {
+        padding: .7rem;
+        border-radius: 50%;
+        background-color: $color-primary;
+        fill: $color-very-ligth;
+        stroke: $color-very-ligth;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+      }
+    }
+    &--search {
+      width: 70%;
+    }
+  }
   &__content {
     display: grid;
     grid-template-columns: 1fr;

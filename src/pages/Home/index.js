@@ -18,7 +18,7 @@ export default function Home() {
               <Link href='/users' className='btn btn-primary'>View Users</Link>
             </div>
             <div className="home__image">
-              <img src={hero} alt="Hero Image"/>
+              <img src={hero} alt="Hero"/>
             </div>
           </section>
         </div>

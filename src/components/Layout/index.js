@@ -7,7 +7,7 @@ export default function Layout({ children, title, subtitle }) {
   return (
     <>
       <Helmet>
-        {title && <title>{title} | MyUser 💁‍♀️</title>}
+        {title && <title>{title} | MyUser</title>}
         {subtitle && <meta name='description' content={subtitle} />}
       </Helmet>
       <Header />
