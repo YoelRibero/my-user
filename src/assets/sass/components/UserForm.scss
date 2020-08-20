@@ -1,0 +1,43 @@
+.userForm {
+  padding: 1rem .5rem;
+  border-radius: 3px;
+  background-color: rgba($color-primary, .5);
+  &__group {
+    margin-bottom: 1.5rem;
+    label {
+      display: block;
+      margin-bottom: .5rem;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    small {
+      font-size: 12px;
+      margin-bottom: .5rem;
+      display: block;
+      color: #777;
+    }
+    input, select {
+      width: 100%;
+    }
+  }
+  &__multiGroup {
+    display: flex;
+    justify-content: space-between;
+    .userForm__group {
+      width: 48%;
+    }
+  }
+  &__action {
+    text-align: right;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 1rem 2rem;
+    box-shadow: $shadow;
+    &__group {
+      margin-bottom: .5rem;
+      label, small {
+        margin-bottom: .2rem;
+      }
+    }
+  }
+}

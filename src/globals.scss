@@ -44,13 +44,17 @@ a {
   text-decoration: none;
 }
 
-input {
+input, select {
   border: 1px solid #ddd;
   height: 36px;
-  padding: 0 1rem;
+  padding: 0 .5rem;
   border-radius: 3px;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 14px;
+  @media screen and (min-width: 768px) {
+    padding: 0 1rem;
+    font-size: 16px;
+  }
 }
 
 @keyframes fadeIn {

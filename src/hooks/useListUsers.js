@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import api from '../api'
 
-export default function useReadUsers(setLoading, setError) {
+export default function useListUsers(setLoading = false, setError = null) {
   const [users, setUsers] = useState([])
   useEffect(() => {
     setLoading(true)
@@ -16,6 +16,6 @@ export default function useReadUsers(setLoading, setError) {
       setLoading(true)
       setError(error)
     }
-  }, [])
+  }, [setLoading, setError])
   return [users]
 }

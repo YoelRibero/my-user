@@ -141,7 +141,7 @@
       "jobRelated": "programming",
       "twitter": "OzellaSchaefer15358-7071",
       "avatarUrl": "https://randomuser.me/api/portraits/women/21.jpg",
-      "preferColor": "#5a9696"
+      "preferColor": "#186363"
     },
     {
       "id": "02c0eae9-96e3-4527-a2c2-f2274bb4f3cf",
@@ -164,6 +164,28 @@
       "twitter": "MaynardRowe74584",
       "avatarUrl": "https://randomuser.me/api/portraits/women/52.jpg",
       "preferColor": "#d3be62"
+    },
+    {
+      "firstName": "Yoel",
+      "lastName": "Ribero",
+      "email": "yoelribero9@gmail.com",
+      "avatarUrl": "https://media-exp1.licdn.com/dms/image/C4D03AQHLZ63MRPaZ3Q/profile-displayphoto-shrink_100_100/0?e=1603324800&v=beta&t=bjDHfGQMxYa82-eUsY_M4_NrZhjb5CgozV_EBs-jx00",
+      "jobTitle": "Front-End Developer",
+      "jobRelated": "programming",
+      "preferColor": "#891010",
+      "twitter": "riberoyoel",
+      "id": "ofDesiJ"
+    },
+    {
+      "firstName": "Victoria ",
+      "lastName": "Canti",
+      "email": "viccanti@gmail.com",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/1275404323749539840/-W5F2Z5M_400x400.jpg",
+      "jobTitle": "Graphic Designer",
+      "jobRelated": "photography",
+      "preferColor": "#974949",
+      "twitter": "viccanti",
+      "id": "5HyD3S_"
     }
   ]
 }

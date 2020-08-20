@@ -2,15 +2,20 @@ import React, { useState } from 'react'
 import { Link } from 'wouter'
 
 import { FiPlus } from 'react-icons/fi'
-import useReadUsers from '../../hooks/useReadUsers'
+
+import useListUsers from '../../hooks/useListUsers'
+import useSearchUsers from '../../hooks/useSearchUsers'
+
 import { CommonLoading } from 'react-loadingg'
 import Layout from '../../components/Layout'
+import Search from '../../components/Search'
 import UserSummary from '../../components/UserSummary'
 
 export default function Users() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
-  const [users] = useReadUsers(setLoading, setError)
+  const [users] = useListUsers(setLoading, setError)
+  const { query, setQuery, filteredUsers } = useSearchUsers(users)
   return (
     <Layout title='List of Users' subtitle='List of users page'>
       <main className='users'>
@@ -25,15 +30,16 @@ export default function Users() {
                   <Link to='/users/new'><FiPlus /></Link>
                 </section>
                 <section className='users__actions--search'>
-                  <div className='search'>
-                    <h4>Filter Users</h4>
-                    <input type='text' />
-                  </div>
+                  <Search
+                    setQuery={setQuery}
+                    query={query}
+                    title='Filter Users'
+                  />
                 </section>
               </div>
               <div className='users__content'>
                 {
-                  users.map(user => 
+                  filteredUsers.map(user => 
                     <UserSummary key={user.id} {...user} />
                   )
                 }

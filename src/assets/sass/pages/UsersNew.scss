@@ -1,0 +1,21 @@
+.newUsers {
+  &__content {
+    .user__summary, .userForm {
+      margin-bottom: 2rem;
+    }
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      .user__summary {
+        width: 35%;
+        margin: 0;
+      }
+      .userForm {
+        width: 45%;
+        margin: 0;
+      }
+    }
+  }
+}
