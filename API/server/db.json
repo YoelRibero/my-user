@@ -6,7 +6,7 @@
       "lastName": "Hoppe",
       "email": "Deshaun_Steuber@gmail.com",
       "jobTitle": "Senior Implementation Architect",
-      "jobRelated": "photography",
+      "jobRelated": "construction",
       "twitter": "KaelynHoppe15215",
       "avatarUrl": "https://randomuser.me/api/portraits/men/44.jpg",
       "preferColor": "#d8d286"
@@ -17,10 +17,10 @@
       "lastName": "Torphy",
       "email": "Torrance.Gaylord@yahoo.com",
       "jobTitle": "Lead Directives Liaison",
-      "jobRelated": "programming",
+      "jobRelated": "lawyer",
       "twitter": "MyrtleTorphy42588-6517",
       "avatarUrl": "https://randomuser.me/api/portraits/women/35.jpg",
-      "preferColor": "#222222"
+      "preferColor": "#c938cc"
     },
     {
       "id": "052e04c9-6386-400c-8794-c1ac8f794a75",
@@ -39,7 +39,7 @@
       "lastName": "Huel",
       "email": "Chadd37@yahoo.com",
       "jobTitle": "Internal Group Analyst",
-      "jobRelated": "programming",
+      "jobRelated": "accountant",
       "twitter": "MaynardHuel05078-8821",
       "avatarUrl": "https://randomuser.me/api/portraits/women/80.jpg",
       "preferColor": "#676546"
@@ -50,7 +50,7 @@
       "lastName": "Bartell",
       "email": "Dean80@hotmail.com",
       "jobTitle": "National Mobility Administrator",
-      "jobRelated": "photography",
+      "jobRelated": "teacher",
       "twitter": "DevinBartell94456-3248",
       "avatarUrl": "https://randomuser.me/api/portraits/women/38.jpg",
       "preferColor": "#d9af8a"
@@ -61,7 +61,7 @@
       "lastName": "Walker",
       "email": "Isom.Zboncak@yahoo.com",
       "jobTitle": "Central Paradigm Executive",
-      "jobRelated": "photography",
+      "jobRelated": "medicine",
       "twitter": "AntwanWalker03371-3341",
       "avatarUrl": "https://randomuser.me/api/portraits/women/41.jpg",
       "preferColor": "#c7b281"
@@ -83,7 +83,7 @@
       "lastName": "Hermiston",
       "email": "Pearl80@hotmail.com",
       "jobTitle": "Direct Usability Technician",
-      "jobRelated": "singer",
+      "jobRelated": "programming",
       "twitter": "KingHermiston36255",
       "avatarUrl": "https://randomuser.me/api/portraits/men/49.jpg",
       "preferColor": "#6b472b"
@@ -94,7 +94,7 @@
       "lastName": "Watsica",
       "email": "Amy.Haag@hotmail.com",
       "jobTitle": "Internal Response Architect",
-      "jobRelated": "photography",
+      "jobRelated": "construction",
       "twitter": "OdessaWatsica41585-3744",
       "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
       "preferColor": "#ca8794"
@@ -116,7 +116,7 @@
       "lastName": "Kulas",
       "email": "Frieda89@yahoo.com",
       "jobTitle": "Senior Research Consultant",
-      "jobRelated": "construction",
+      "jobRelated": "laborer",
       "twitter": "JasenKulas35396-9255",
       "avatarUrl": "https://randomuser.me/api/portraits/women/20.jpg",
       "preferColor": "#eef6c5"
@@ -127,7 +127,7 @@
       "lastName": "Miller",
       "email": "Dock5@gmail.com",
       "jobTitle": "Lead Solutions Designer",
-      "jobRelated": "construction",
+      "jobRelated": "designer",
       "twitter": "PaulMiller12518-9290",
       "avatarUrl": "https://randomuser.me/api/portraits/men/31.jpg",
       "preferColor": "#b2b6c1"
@@ -138,7 +138,7 @@
       "lastName": "Schaefer",
       "email": "Reva.Rosenbaum@gmail.com",
       "jobTitle": "International Accountability Manager",
-      "jobRelated": "programming",
+      "jobRelated": "accountant",
       "twitter": "OzellaSchaefer15358-7071",
       "avatarUrl": "https://randomuser.me/api/portraits/women/21.jpg",
       "preferColor": "#186363"
@@ -149,7 +149,7 @@
       "lastName": "Heller",
       "email": "Jayce_Greenholt72@gmail.com",
       "jobTitle": "Product Directives Coordinator",
-      "jobRelated": "gastronomy",
+      "jobRelated": "dentist",
       "twitter": "RebecaHeller98352",
       "avatarUrl": "https://randomuser.me/api/portraits/women/38.jpg",
       "preferColor": "#8e5951"
@@ -160,10 +160,10 @@
       "lastName": "Rowe",
       "email": "Ressie79@yahoo.com",
       "jobTitle": "Dynamic Creative Engineer",
-      "jobRelated": "photography",
+      "jobRelated": "engineer",
       "twitter": "MaynardRowe74584",
       "avatarUrl": "https://randomuser.me/api/portraits/women/52.jpg",
-      "preferColor": "#d3be62"
+      "preferColor": "#c94d18"
     },
     {
       "firstName": "Yoel",
@@ -182,7 +182,7 @@
       "email": "viccanti@gmail.com",
       "avatarUrl": "https://pbs.twimg.com/profile_images/1275404323749539840/-W5F2Z5M_400x400.jpg",
       "jobTitle": "Graphic Designer",
-      "jobRelated": "photography",
+      "jobRelated": "designer",
       "preferColor": "#974949",
       "twitter": "viccanti",
       "id": "5HyD3S_"

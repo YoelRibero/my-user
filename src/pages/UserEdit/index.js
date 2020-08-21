@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { useLocation } from 'wouter'
-import useReadUser from '../../hooks/useReadUser'
+import { CommonLoading } from 'react-loadingg'
 
 import api from '../../api'
 
-import { CommonLoading } from 'react-loadingg'
+import useReadUser from '../../hooks/useReadUser'
 import Layout from '../../components/Layout'
 import Hero from '../../components/Hero'
 import UserSummary from '../../components/UserSummary'
@@ -72,6 +72,7 @@ export default function UserEDit({ params: { userId } }) {
           </main>
         </>
       }
+      {error && <h4>Oh! hubo un Error {error}</h4>}
     </Layout>
   )
 }

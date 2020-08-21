@@ -1,6 +1,7 @@
 .user {
   &__container {
     animation: fadeIn 1s ease;
+    cursor: pointer;
   }
   &__summary {
     position: relative;

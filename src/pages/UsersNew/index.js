@@ -51,10 +51,10 @@ export default function UsersNew() {
         :
         <>
           <Hero firstName={form.firstName} />
-          <main className="newUsers">
-            <div className="wrapper">
-              <div className="newUsers__content">
-                <UserSummary {...form} />
+          <main className='newUsers'>
+            <div className='wrapper'>
+              <div className='newUsers__content'>
+                <UserSummary clickable={false} {...form} />
                 <UserForm
                   error={error}
                   form={form}
@@ -66,6 +66,7 @@ export default function UsersNew() {
           </main>
         </>
       }
+      {error && <h3>Ups! there was error {error}</h3>}
     </Layout>
   )
 }

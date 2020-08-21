@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'wouter'
-
+import { CommonLoading } from 'react-loadingg'
 import { FiPlus } from 'react-icons/fi'
 
 import useListUsers from '../../hooks/useListUsers'
 import useSearchUsers from '../../hooks/useSearchUsers'
-
-import { CommonLoading } from 'react-loadingg'
 import Layout from '../../components/Layout'
 import Search from '../../components/Search'
 import UserSummary from '../../components/UserSummary'
@@ -39,9 +37,7 @@ export default function Users() {
               </div>
               <div className='users__content'>
                 {
-                  filteredUsers.map(user => 
-                    <UserSummary key={user.id} {...user} />
-                  )
+                  filteredUsers.map(user => <UserSummary key={user.id} {...user} />)
                 }
               </div>
             </>

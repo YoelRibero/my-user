@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'wouter'
 import { TiEdit } from 'react-icons/ti'
 import { MdDelete } from 'react-icons/md'
+import { CommonLoading } from 'react-loadingg'
 
 import api from '../../api'
 
-import { CommonLoading } from 'react-loadingg'
 import useReadUser from '../../hooks/useReadUser'
 import Layout from '../../components/Layout'
 import Hero from '../../components/Hero'
@@ -41,17 +41,17 @@ export default function UserDetail({ params: { userId } }) {
           <main className='userDetail'>
             <div className='wrapper'>
               <div className='userDetail__content'>
-                    <UserSummary {...user} />
-                    <section className='userDetail__actions'>
-                      <Link href={`/user/${userId}/edit`}><TiEdit /></Link>
-                      <button onClick={handleDelete}><MdDelete /></button>
-                    </section>
+                <UserSummary {...user} />
+                <section className='userDetail__actions'>
+                  <Link href={`/user/${userId}/edit`}><TiEdit /></Link>
+                  <button onClick={handleDelete}><MdDelete /></button>
+                </section>
               </div>
             </div>
           </main>
         </>
       }
-      {error && <h4>Oh! hubo un error {error}</h4>}
+      {error && <h3>Ups! there was error {error}</h3>}
     </Layout>
   )
 }

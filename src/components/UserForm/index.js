@@ -3,8 +3,9 @@ import React from 'react'
 export default function UserForm({ onChange, onSubmit, form, error }) {
   return (
     <div className='userForm'>
+      {error && <h3>Ups! there was error {error}</h3>}
       <form onSubmit={onSubmit}>
-        <div className="userForm__multiGroup">
+        <div className='userForm__multiGroup'>
           <div className='userForm__group'>
             <label>First Name</label>
             <input
@@ -43,7 +44,7 @@ export default function UserForm({ onChange, onSubmit, form, error }) {
             value={form.avatarUrl}
           />
         </div>
-        <div className="userForm__multiGroup">
+        <div className='userForm__multiGroup'>
           <div className='userForm__group'>
             <label>Job Title</label>
             <input
@@ -57,15 +58,24 @@ export default function UserForm({ onChange, onSubmit, form, error }) {
             <label>Job Related</label>
             <select
               onChange={onChange}
-              name="jobRelated"
+              name='jobRelated'
               value={form.jobRelated}
-              >
+            >
               <option>- Select option -</option>
-              <option value="construction">Construction</option>
-              <option value="gastronomy">Gastronomy</option>
-              <option value="programming">Programming</option>
-              <option value="singer">Singer</option>
-              <option value="photography">Photography</option>
+              <option value='construction'>Construction</option>
+              <option value='gastronomy'>Gastronomy</option>
+              <option value='programming'>Programming</option>
+              <option value='singer'>Singer</option>
+              <option value='photography'>Photography</option>
+              <option value='accountant'>Accountant</option>
+              <option value='dentist'>Dentist</option>
+              <option value='engineer'>Engineer</option>
+              <option value='designer'>Designer</option>
+              <option value='laborer'>Laborer</option>
+              <option value='lawyer'>Lawyer</option>
+              <option value='mechanic'>Mechanic</option>
+              <option value='medicine'>Medicine</option>
+              <option value='teacher'>Teacher</option>
             </select>
           </div>
         </div>
@@ -87,7 +97,7 @@ export default function UserForm({ onChange, onSubmit, form, error }) {
             value={form.twitter}
           />
         </div>
-        <div className="userForm__action">
+        <div className='userForm__action'>
           <button className='btn btn-primary'>Save</button>
         </div>
       </form>

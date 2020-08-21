@@ -6,14 +6,14 @@ import { heroImageUser } from '../../services/heroImageUser'
 
 import useLazyLoad from '../../hooks/useLazyLoad'
 
-export default function UserSummary({ avatarUrl, firstName, id, jobTitle, jobRelated, lastName, preferColor, twitter }) {
+export default function UserSummary({ avatarUrl, firstName, id, jobTitle, jobRelated, lastName, preferColor, twitter, clickable = true }) {
   const [show, ref] = useLazyLoad()
   return (
     <article className='user__summary' ref={ref}>
       {
         show &&
-        <div className='user__container'>
-          <Link href={`/user/${id}`}>
+        <Link href={clickable ? `/user/${id}` : '#'}>
+          <div className='user__container'>
             <Hero background={preferColor} className='user__hero'>
               <img src={heroImageUser(jobRelated)} alt='Hero User'/>
             </Hero>
@@ -25,8 +25,8 @@ export default function UserSummary({ avatarUrl, firstName, id, jobTitle, jobRel
               <div className='user__job'>{jobTitle || 'Job Title'}</div>
               <SocialNetwork color={preferColor} className='user__socialNetwork'>@{twitter || 'twitter'}</SocialNetwork>
             </section>
-          </Link>
-        </div>
+          </div>
+        </Link>
       }
     </article>
   )
