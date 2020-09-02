@@ -1,7 +1,21 @@
 .hero {
-  background-color: #ddd;
+  background-image: url('../../images/background-hero.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
   margin-bottom: 2rem;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: .5;
+    background-color: #fff;
+  }
   &__content {
+    position: relative;
     padding: 1rem 0;
     display: flex;
     justify-content: space-around;

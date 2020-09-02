@@ -1,5 +1,20 @@
 .home {
+  background-image: url('../../images/background-hero.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    opacity: .5;
+    background-color: #fff;
+  }
   &__content {
+    position: relative;
     height: calc(100vh - 60px);
     display: flex;
     align-items: center;
