@@ -1,8 +1,11 @@
 .home {
   background-image: url('../../images/background-hero-3.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
   position: relative;
+  @media (min-width: 801px) {
+    background-size: 100%;
+  }
   &::before {
     content: '';
     position: absolute;
