@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7b0c44b.chunk.css",
+    "main.js": "/static/js/main.785c153a.chunk.js",
+    "main.js.map": "/static/js/main.785c153a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.16910e82.js",
+    "runtime-main.js.map": "/static/js/runtime-main.16910e82.js.map",
+    "static/js/2.abf547d9.chunk.js": "/static/js/2.abf547d9.chunk.js",
+    "static/js/2.abf547d9.chunk.js.map": "/static/js/2.abf547d9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f4d9c72a8dadb6f7e408fa70ea012158.js": "/precache-manifest.f4d9c72a8dadb6f7e408fa70ea012158.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b7b0c44b.chunk.css.map": "/static/css/main.b7b0c44b.chunk.css.map",
+    "static/js/2.abf547d9.chunk.js.LICENSE.txt": "/static/js/2.abf547d9.chunk.js.LICENSE.txt",
+    "static/media/construction.jpg": "/static/media/construction.b738fb2e.jpg",
+    "static/media/gastronomy.jpg": "/static/media/gastronomy.2e635abc.jpg",
+    "static/media/hero.png": "/static/media/hero.92854cc0.png",
+    "static/media/photography.jpg": "/static/media/photography.a25829ce.jpg",
+    "static/media/profile-avatar.jpg": "/static/media/profile-avatar.6f02bd96.jpg",
+    "static/media/programming.jpg": "/static/media/programming.20d27b82.jpg",
+    "static/media/singer.jpg": "/static/media/singer.e30438d4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16910e82.js",
+    "static/js/2.abf547d9.chunk.js",
+    "static/css/main.b7b0c44b.chunk.css",
+    "static/js/main.785c153a.chunk.js"
+  ]
+}
