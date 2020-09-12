@@ -29,6 +29,8 @@ export default function UserEDit({ params: { userId } }) {
   const [location, setLocation] = useLocation()
   test && console.log(location)
   useEffect(() => {
+    // Deleted _id property because can't send this property to api when edit element
+    delete user._id
     setForm(user)
   }, [user])
   const handleChange = e => {

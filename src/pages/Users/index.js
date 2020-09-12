@@ -37,7 +37,7 @@ export default function Users() {
               </div>
               <div className='users__content'>
                 {
-                  filteredUsers.map(user => <UserSummary key={user.id} {...user} />)
+                  filteredUsers.map(user => <UserSummary key={user._id} {...user} />)
                 }
               </div>
             </>

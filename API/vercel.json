@@ -1,0 +1,22 @@
+{
+  "name": "myusers-api",
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ],
+  "env": {
+    "DB_USER": "@myusers-db-user",
+    "DB_PASSWORD": "@myusers-db-password",
+    "DB_HOST": "@myusers-db-host",
+    "DB_NAME": "@myusers-db-name"
+  }
+}

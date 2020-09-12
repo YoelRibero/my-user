@@ -6,13 +6,13 @@ import { heroImageUser } from '../../services/heroImageUser'
 
 import useLazyLoad from '../../hooks/useLazyLoad'
 
-export default function UserSummary({ avatarUrl, firstName, id, jobTitle, jobRelated, lastName, preferColor, twitter, clickable = true }) {
+export default function UserSummary({ avatarUrl, firstName, _id, jobTitle, jobRelated, lastName, preferColor, twitter, clickable = true }) {
   const [show, ref] = useLazyLoad()
   return (
     <article className='user__summary' ref={ref}>
       {
         show &&
-        <Link href={clickable ? `/user/${id}` : '#'}>
+        <Link href={clickable ? `/user/${_id}` : '#'}>
           <div className='user__container'>
             <Hero background={preferColor} className='user__hero'>
               <img src={heroImageUser(jobRelated)} alt='Hero User'/>
