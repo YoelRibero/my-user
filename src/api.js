@@ -1,4 +1,6 @@
-const BASE_URL = 'http://localhost:3001/api';
+let BASE_URL;
+
+window.location.href.indexOf('localhost') > -1 ? BASE_URL = 'http://localhost:3001/api' : 'https://myusers-api.vercel.app/api';
 
 async function callApi(endpoint, options = {}) {
   options.headers = {
